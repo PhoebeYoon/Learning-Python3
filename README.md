@@ -28,27 +28,28 @@
 |5**5    
 3125
 
-|(5+5)*3
-30
-|age =25
-age
-25
+|(5+5)*3   
+30   
 
-|age+5
-30
+|age =25  
+age  
+25  
 
-|age = age+5
-age
-30
+|age+5  
+30  
 
-|age +=5
-age
-35
+|age = age+5  
+age  
+30  
 
-|age -=5
-age
-30
+|age +=5  
+age  
+35  
 
-|age /=2
-age
-15.0
+|age -=5  
+age  
+30  
+
+|age /=2  
+age  
+15.0  
