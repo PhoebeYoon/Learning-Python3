@@ -1,3 +1,30 @@
-# Learning-Python3
+|type(10)   
+<class 'int'>   
 
-## 파이썬 프로그램언어를 배우는 코스
+|type(3.14)   
+<class 'float'>   
+
+|type('spring')   
+<class 'str'>   
+
+|type("winter")    
+<class 'str'>    
+
+|5+5    
+10    
+
+|5-2    
+3   
+
+|5*2    
+10    
+
+|10//3   
+3   
+
+|10%3   
+1   
+
+|5**5    
+3125   
+
