@@ -11,7 +11,9 @@
         -cd python   
         -git init   
         -git remote add origin 원격저장소주소  
-3. git branch lesson01 > git switch lesson01 > 파일내용생성
-4. git switch main
+3. git branch lesson01 > git switch lesson01 > 파일내용생성  
+   3-1. 또는  
+      -git checkout -b python. 
+4. 현재위치는 새로 생성된 브랜치안이다
 5. git push origin lesson01 ( 로컬에서 생성한 브랜치명)
 6. 원격저장소에서 확인해 본다
