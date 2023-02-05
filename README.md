@@ -7,12 +7,12 @@
 2. 클론 또는 로컬에 따로 생성해도 좋다  
   2-1. git clone 원격저장소주소  
   2-2. 
-        -<kbd>mkdir python</kbd>  
-        -<kbd>cd python</kbd>   
-        -<kbd>git init</kbd>   
-        -git remote add origin 원격저장소주소  
+        <kbd>mkdir python</kbd>  
+        <kbd>cd python</kbd>   
+        <kbd>git init</kbd>   
+        <kbd>git remote add origin 원격저장소주소 </kbd>   
 3. git branch lesson01 > git switch lesson01 > 파일내용생성  
-    3-1. 또는 git checkout -b python   
-4. 현재위치는 새로 생성된 브랜치안이다
-5. git push origin lesson01 ( 로컬에서 생성한 브랜치명)
+    3-1. 또는 <kbd>git checkout -b python  </kbd>  
+4. 현재위치는 새로 생성된 브랜치로 이동
+5.<kbd> git push origin lesson01 </kbd>( 로컬에서 생성한 브랜치명)
 6. 원격저장소에서 확인해 본다
