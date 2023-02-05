@@ -1,19 +1,18 @@
 # Learning-Python3
 
-## ÆÄÀÌ½ã ÇÁ·Î±×·¥¾ð¾î¸¦ ¹è¿ì´Â ÄÚ½º
+## íŒŒì´ì¬ í”„ë¡œê·¸ëž¨ì–¸ì–´ë¥¼ ë°°ìš°ëŠ” ì½”ìŠ¤
 
-### ·ÎÄÃ°ú ¿ø°ÝÀ» ÀÌ¿ëÇÏ¿© ÀÛ¾÷ÇÒ¶§
-1. ¿ì¼± ·ÎÄÃ°ú ¿ø°ÝÀ» ¿ø°ÝÇÑ´Ù. 
-2. Å¬·Ð ¶Ç´Â ·ÎÄÃ¿¡ µû·Î »ý¼ºÇØµµ ÁÁ´Ù  
-  2-1. git clone ¿ø°ÝÀúÀå¼ÒÁÖ¼Ò  
-  2-2.  
+### ë¡œì»¬ê³¼ ì›ê²©ì„ ì´ìš©í•˜ì—¬ ìž‘ì—…í• ë•Œ
+1. ìš°ì„  ë¡œì»¬ê³¼ ì›ê²©ì„ ì—°ê²°í•œë‹¤
+2. í´ë¡  ë˜ëŠ” ë¡œì»¬ì— ë”°ë¡œ ìƒì„±í•´ë„ ì¢‹ë‹¤  
+  2-1. git clone ì›ê²©ì €ìž¥ì†Œì£¼ì†Œ  
+  2-2. 
         -<kbd>mkdir python</kbd>  
         -<kbd>cd python</kbd>   
         -<kbd>git init</kbd>   
-        -git remote add origin ¿ø°ÝÀúÀå¼ÒÁÖ¼Ò  
-3. git branch lesson01 > git switch lesson01 > ÆÄÀÏ³»¿ë»ý¼º  
-   3-1. ¶Ç´Â  
-      -git checkout -b python. 
-4. ÇöÀçÀ§Ä¡´Â »õ·Î »ý¼ºµÈ ºê·£Ä¡¾ÈÀÌ´Ù
-5. git push origin lesson01 ( ·ÎÄÃ¿¡¼­ »ý¼ºÇÑ ºê·£Ä¡¸í)
-6. ¿ø°ÝÀúÀå¼Ò¿¡¼­ È®ÀÎÇØ º»´Ù
+        -git remote add origin ì›ê²©ì €ìž¥ì†Œì£¼ì†Œ  
+3. git branch lesson01 > git switch lesson01 > íŒŒì¼ë‚´ìš©ìƒì„±  
+    3-1. ë˜ëŠ” git checkout -b python   
+4. í˜„ìž¬ìœ„ì¹˜ëŠ” ìƒˆë¡œ ìƒì„±ëœ ë¸Œëžœì¹˜ì•ˆì´ë‹¤
+5. git push origin lesson01 ( ë¡œì»¬ì—ì„œ ìƒì„±í•œ ë¸Œëžœì¹˜ëª…)
+6. ì›ê²©ì €ìž¥ì†Œì—ì„œ í™•ì¸í•´ ë³¸ë‹¤
