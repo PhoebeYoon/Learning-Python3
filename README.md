@@ -1,5 +1,5 @@
 # Lesson 01
-##¸®½ºÆ®ÀÇ ÁÖ¿ä ÇÔ¼ö  
+##ë¦¬ìŠ¤íŠ¸ì˜ ì£¼ìš” í•¨ìˆ˜  
 - len(list)   	
 - max(list)  
 - min(list) 	 
@@ -8,14 +8,14 @@
 - list(seq) 	
 - tuple(list)
 
-###¸®½ºÆ®ÀÇ ÁÖ¿ä ¸Ş¼Òµå     
--list.append(x)	     
--list.extens(list2)    		
--list.insert(i, x)     
--list.remove(x)   	
--list.pop(i) 	  	
--list.clear()     
--list.index(x)     	
--list.count(x) 	 	   
--list.sort(key)      
--list.reverse()     
+###ë¦¬ìŠ¤íŠ¸ì˜ ì£¼ìš” ë©”ì†Œë“œ       
+- list.append(x)	     
+- list.extens(list2)    		
+- list.insert(i, x)     
+- list.remove(x)   	
+- list.pop(i) 	  	
+- list.clear()     
+- list.index(x)     	
+- list.count(x) 	 	   
+- list.sort(key)      
+- list.reverse()     
