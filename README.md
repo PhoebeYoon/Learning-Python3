@@ -11,8 +11,10 @@
         <kbd>cd python</kbd>   
         <kbd>git init</kbd>   
         <kbd>git remote add origin 원격저장소주소 </kbd>   
-3. git branch lesson01 > git switch lesson01 > 파일내용생성  
-    3-1. 또는 <kbd>git checkout -b python  </kbd>  
-4. 현재위치는 새로 생성된 브랜치로 이동  
-5.<kbd> git push origin lesson01 </kbd>( 로컬에서 생성한 브랜치명)
-6. 원격저장소에서 확인해 본다
+3. 브랜치를 생성하고 해당 브랜치안에서 내용을 생성한다  
+     git branch lesson01  또는 <kbd>git checkout -b python  </kbd>    
+     git switch lesson01   
+     파일내용생성   
+     현재의 브랜치 안에서 푸시한다(4번 실행)   
+4. <kbd> git push origin lesson01 </kbd> (로컬에서 생성한 브랜치명)   
+5. 원격저장소에서 확인해 본다   
