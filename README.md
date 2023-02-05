@@ -1,3 +1,13 @@
-# Lesson01
+# Lesson 01
 
-## íŒŒì´ì¬ í”„ë¡œê·¸ë¨ì–¸ì–´ë¥¼ ë°°ìš°ëŠ” ì½”ìŠ¤
+
+##¸®½ºÆ®ÀÇ ÁÖ¿ä ÇÔ¼ö
+len(list) 		max(list) 		min(list) 	
+sum(list)		sorted(list, key) 	list(seq) 	
+tuple(list)
+
+##¸®½ºÆ®ÀÇ ÁÖ¿ä ¸Ş¼Òµå
+list.append(x)	list.extens(list2) 		list.insert(i, x)
+list.remove(x) 	list.pop(i) 		list.clear() 
+list.index(x) 	list.count(x) 		list.sort(key)
+list.reverse()
