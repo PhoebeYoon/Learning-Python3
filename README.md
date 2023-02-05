@@ -1,5 +1,5 @@
 # Lesson 01
-##리스트의 주요 함수  
+### 리스트의 주요 함수  
 - len(list)   	
 - max(list)  
 - min(list) 	 
@@ -8,7 +8,7 @@
 - list(seq) 	
 - tuple(list)
 
-###리스트의 주요 메소드       
+### 리스트의 주요 메소드       
 - list.append(x)	     
 - list.extens(list2)    		
 - list.insert(i, x)     
