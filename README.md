@@ -7,9 +7,9 @@
 2. 클론 또는 로컬에 따로 생성해도 좋다  
   2-1. git clone 원격저장소주소  
   2-2.  
-        -mkdir python   
-        -cd python   
-        -git init   
+        -<kbd>mkdir python</kbd>  
+        -<kbd>cd python</kbd>   
+        -<kbd>git init</kbd>   
         -git remote add origin 원격저장소주소  
 3. git branch lesson01 > git switch lesson01 > 파일내용생성  
    3-1. 또는  
