@@ -9,7 +9,7 @@
 
 <img width="400" alt="스크린샷 2023-02-11 오후 9 20 01" src="https://user-images.githubusercontent.com/48478079/218257627-2875af77-1e42-4f2a-8fdc-c5e5691b6eaa.png">
 
-###1. Numeric Types: int(정수), float(소수), complex(복소수)
+### 1. Numeric Types: int(정수), float(소수), complex(복소수)
 
 ```python
 # Numeric Types : int / float / complex
@@ -37,8 +37,8 @@ print(hex, type(hex))
 결과값을 확인하세요
 
 
-###Sequence Types: str(문자열), list(리스트), tuple(튜플)
-
+### 2. Sequence Types: str(문자열), list(리스트), tuple(튜플)
+- 문자열
 ```python
 # 1. 문자열(string) : 문자, 단어로 이루어진 문자들의 집합
 # 2. 추가,삭제, 수정, 길이 구하기, 인덱싱, 슬라이싱, 위치찾기, 갯수구하기 등 
@@ -71,6 +71,6 @@ print(type(v_tuple)) # <class 'tuple'>
 print(type(v_set)) # <class 'set'>
 ```
 
-
-### 리스트 (list)
+- 리스트 (list)
+  indexing, slicing , pop(), del(), remove(), count(), sort(), reverse(),append(), extend() 등
 
