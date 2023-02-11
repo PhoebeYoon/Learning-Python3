@@ -13,7 +13,7 @@
 [while     ] [with      ] [yield     ] 
 
 코드로 출력해 보자.
-```
+```python
 import keyword
 
 reverved_word =keyword.kwlist #kwlist
