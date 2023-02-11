@@ -72,8 +72,8 @@ print(type(v_set)) # <class 'set'>
 ```
 
 - 리스트
-  indexing, slicing , pop(), del(), remove(), count(), sort(), reverse(),append(), extend() 등
-  
+1. [ ] 기호를 사용한다
+2. indexing, slicing , pop(), del(), remove(), count(), sort(), reverse(),append(), extend() 등
   
   
   
