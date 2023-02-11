@@ -53,7 +53,7 @@ v_dict = {
 v_list = [3,5,7] #list
 v_tuple = 3,5,7 #tuple
 v_set = {7,8,9} #set
-#
+
 print(type(v_str1)) # <class 'str'>
 print(type(v_str2)) # <class 'str'>
 print(type(v_bool)) # <class 'bool'>
