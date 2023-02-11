@@ -15,6 +15,8 @@
 코드로 출력해 보자.
 ```python
 import keyword
+print(keyword.kwlist) 
+# 이렇게 하면 키워드가 리스트 형태로 쭈욱 출력됩니다. 이것을 보기 좋게 아래와 같이 코딩하여 출력해 보겠습니다
 
 reverved_word =keyword.kwlist #kwlist
 for i in range(0, len(reverved_word)):
