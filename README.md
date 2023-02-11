@@ -1,57 +1,23 @@
-### 파이썬을 설치한 후 IDLE에서 실행합니다
-|type(10)   
-<class 'int'>   
+### Reverved words or keyword of the language
 
-|type(3.14)   
-<class 'float'>   
+키워드는 파이썬에서 사용목적이 이미 정해져 있는 단어로 예약어라고 부릅니다. 그래서 다른 용도로 사용이 불가능합니다.   
+키워드는 다음과 같습니다.  
+''' 
+import keyword
 
-|type('spring')   
-<class 'str'>   
+reverved_word =keyword.kwlist #kwlist
+for i in range(0, len(reverved_word)):
+    print("[{:^10}]".format(reverved_word[i]), end="")
+    if( (i+1)%5 ==0):
+        print("\n")
+       
+'''
 
-|type("winter")    
-<class 'str'>    
-
-|5+5    
-10    
-
-|5-2    
-3   
-
-|5*2    
-10    
-
-|10//3   
-3   
-
-|10%3   
-1   
-
-|5**5    
-3125
-
-|(5+5)*3   
-30   
-
-|age =25  
-age  
-25  
-
-|age+5  
-30  
-
-|age = age+5  
-age  
-30  
-
-|age +=5  
-age  
-35  
-
-|age -=5  
-age  
-30  
-
-|age /=2  
-age  
-15.0  
+[False     ] [None      ] [True      ] [and       ] [as        ] 
+[assert    ] [break     ] [class     ] [continue  ] [def       ] 
+[del       ] [elif      ] [else      ] [except    ] [finally   ] 
+[for       ] [from      ] [global    ] [if        ] [import    ] 
+[in        ] [is        ] [lambda    ] [nonlocal  ] [not       ] 
+[or        ] [pass      ] [raise     ] [return    ] [try       ] 
+[while     ] [with      ] [yield     ] 
 
