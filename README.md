@@ -71,6 +71,13 @@ print(type(v_tuple)) # <class 'tuple'>
 print(type(v_set)) # <class 'set'>
 ```
 
-- 리스트 (list)
+- 리스트
   indexing, slicing , pop(), del(), remove(), count(), sort(), reverse(),append(), extend() 등
+  
+  
+- 튜플 
+1. 리스트와 매우 유사하지만, 우선 리스트는 [ ] 기호를 튜플은 (  ) 기호를 사용한다
+2. 리스트는 생성,수정, 삭제가 가능하지만 튜플은 값을 바꿀 수 없다. 
+3. 튜플이 1개의 값만 갖는다면 값 뒤에 콤마(,) 삽입해야 하고 ( ) 는 생략가능하다
+4. 리스트처럼 슬라이싱, 길이구하기 등 기본적인 것은 리스트와 동일하다
 
