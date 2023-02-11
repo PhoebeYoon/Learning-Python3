@@ -7,7 +7,7 @@
 5. Boolean Type: bool(불리언)
 6. Binary Types: bytes, bytearray, memoryview
 
-<img width="450" height="300" alt="스크린샷 2023-02-11 오후 9 20 01" src="https://user-images.githubusercontent.com/48478079/218264409-d45482c2-d7e0-4d99-a261-3a5631f05591.png">
+<img width="450" height="auto" alt="스크린샷 2023-02-11 오후 9 20 01" src="https://user-images.githubusercontent.com/48478079/218264409-d45482c2-d7e0-4d99-a261-3a5631f05591.png">
 
 
 ### 1. Numeric Types: int(정수), float(소수), complex(복소수)
