@@ -38,7 +38,11 @@ print(hex, type(hex))
 
 
 ```python
-# 데이터 타입
+# Sequence Types :  str / list / tuple 이 있다
+# 1. 문자열(string) : 문자, 단어로 이루어진 문자들의 집합
+# 2. 추가,삭제, 수정, 길이 구하기, 인덱싱, 슬라이싱, 위치찾기, 갯수구하기 등 
+
+
 v_str1 = "Superman" #str
 v_str2 = "Wonderwoman" #str
 v_bool = True #boolean 
