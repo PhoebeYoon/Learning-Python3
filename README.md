@@ -76,7 +76,28 @@ print(type(v_set)) # <class 'set'>
 1. [   ] 기호를 사용한다
 2. indexing, slicing , pop(), del(), remove(), count(), sort(), reverse(),append(), extend() 등
   
-  
+``` python
+# 리스트 생성
+List = []  
+print("JavaTpoint data List: ")  
+print(List)  
+     
+# 숫자가 들어간 리스트
+List1 = [12, 24, 64, 18, 3, 201, 65, 35, 27, 29, 58, 42, 87, 30, 28, 79, 4, 90]  
+print("\n List of numbers: ")  
+print(List1)  
+     
+# 인덱스를 이용하여 요소를 추출
+List2 = ["let's", "learn", "Python", "from", "JavaTpoint"]  
+print("\nList Items: ")  
+print(List2[0])   
+print(List2[2])  
+print(List2[1])  
+print(List2[4])  
+print(List2[3]) 
+
+```
+
   
 - 튜플 (tuple1.py 참조 )   
 1. 리스트와 매우 유사하지만, 우선 리스트는 [ ] 기호를 튜플은 (  ) 기호를 사용한다
@@ -119,3 +140,19 @@ print(setB)
 #여러번 실행시켜 결과가 동일하게 출력되지 않다는 것을 확인한다
 
 ```
+
+> 리스트 vs 집합 비교
+``` python
+List1 = [9, 3, 6, 19, 67, "Hey", "JavaTpoint", 78, 2, 1]  
+List2 = [9, 3, 6, 19, 67, 78, "Hey", "JavaTpoint", 2, 1]  
+print("List1 = ", List1)  
+print("List2 = ", List2)  
+print('List1 == List2 ? ', List1 == List2) # 결과는 False
+
+
+setB= set(["let's", "learn", "Python", "from", "JavaTpoint",10]) 
+setC= set(["learn","let's",  "Python", 10,"JavaTpoint", "from"]) 
+print('SetB == SetC ? ', setB == setC) # 결과는 True
+ 
+```
+
