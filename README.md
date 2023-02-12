@@ -12,11 +12,13 @@
 
 ### 1. Numeric Types: int(정수), float(소수), complex(복소수)
 
+
+
 ```python
 # Numeric Types : int / float / complex
 # 1. int(정수형) : 소수점이 없는 정수
 # 2. float(실수형) :  소수점이 있는 형태
-# 3. complex(복소수) : 실수와 허수의 합인 복소수
+# 3. complex(복소수) : 복소수는 순서가 있는 쌍을 포함합니다. 즉, x + iy는 각각 실수 부분과 허수 부분을 나타냅니다. 2.14j, 2.0 + 2.3j 등과 같은 복소수입니다.
 # 수학적 기능을 사용하기 위해서는 import math 를 해야 함
 num1 = 127  #1바이트로 표현할 수 있는 최대 양수
 num2 = 0
