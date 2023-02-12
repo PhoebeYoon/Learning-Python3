@@ -94,9 +94,28 @@ print(type(v_set)) # <class 'set'>
 
 
 ### 4. Set (집합)
-1. 집합은 set 키워드를 사용. 
-2. 집합은 중복을 허용하지 않는다
-3. 집합은 순서가 없기 때문에 인덱스로 접근이 불가능하다
-4. 교집합, 합집합, 차집합을 구하는데 사용된다
-  ㄸㅐ문
-  
+1. 집합은 set 키워드를 사용하며 중괄호 {   } 사이에 정의된다
+2. set은 정렬되지 않는 항목 또는 데이터 유형의 모음으로 저장된 요소의 순서가 고정되어 있고 그래서 인덱스를 이용한 접근이 불가능하다
+3. 집합은 중복을 허용하지 않는다
+4. 교집합, 합집합, 차집합을 구하는데 사용된다   
+
+``` python
+# 집합의 데이타 구조는 이렇게 생겼습니다 
+
+setA = set()  
+print("Intial JavaTpoint Set: ")  
+print(setA)  
+     
+# string를 집합에 저장한다면 
+String = 'lets learn Python from JavaTpoint'  
+setA = set(String)  
+print("\n 저장된 형태: " )  
+print(setA)  
+     
+# list 를 집합에 저장한다면
+setB= set(["let's", "learn", "Python", "from", "JavaTpoint"])  
+print("\n List를 이용한 집합: ")  
+print(setB)  
+#여러번 실행시켜 결과가 동일하게 출력되지 않다는 것을 확인한다
+
+```
