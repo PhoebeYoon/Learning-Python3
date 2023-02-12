@@ -131,6 +131,11 @@ for i in Days:
     print(i)   
 
 ```
+``` python
+set5 = {1,2,4,4,5,8,9,9,10}  
+print("Return set with unique elements:",set5)   # 중복된 요소를 제거합니다
+```
+
 
 > 리스트 vs 집합 비교
 ``` python
