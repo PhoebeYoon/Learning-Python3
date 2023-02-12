@@ -116,28 +116,19 @@ print(List2[3])
 
 ### 4. Set (집합)
 1. 집합은 set 키워드를 사용하며 중괄호 {   } 사이에 정의된다
-2. set은 정렬되지 않는 항목 또는 데이터 유형의 모음으로 저장된 요소의 순서가 고정되어 있고 그래서 인덱스를 이용한 접근이 불가능하다
-3. 집합은 중복을 허용하지 않는다
-4. 교집합, 합집합, 차집합을 구하는데 사용된다   
+2. 집합의 각 요소는 고유하고 불변해야 하며 중복요소를 가지면 안됩니다. 
+3. 집합은 변형 변형가능하므로 생성 후에 수정이 가능합니다
+4. set은 정렬되지 않는 항목 또는 데이터 유형의 모음으로 저장된 요소의 순서가 고정되어 있지 않아서 인덱스를 이용한 접근이 불가능하다
+5. int, float, tuple 유형의 요소를 포함할 수 있지만 가변요소 ( 리스트, 딕셔너리, 집합) 은 집합의 요소가 될 수 없습니다 
+4. 교집합, 합집합, 차집합을 구하는데 용이합니다 
 
 ``` python
-# 집합의 데이타 구조는 이렇게 생겼습니다 
-
-setA = set()  
-print("Intial JavaTpoint Set: ")  
-print(setA)  
-     
-# string를 집합에 저장한다면 
-String = 'lets learn Python from JavaTpoint'  
-setA = set(String)  
-print("\n 저장된 형태: " )  
-print(setA)  
-     
-# list 를 집합에 저장한다면
-setB= set(["let's", "learn", "Python", "from", "JavaTpoint"])  
-print("\n List를 이용한 집합: ")  
-print(setB)  
-#여러번 실행시켜 결과가 동일하게 출력되지 않다는 것을 확인한다
+Days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}    
+print(Days)    
+print(type(Days))    
+print("looping through the set elements ... ")    
+for i in Days:    
+    print(i)   
 
 ```
 
