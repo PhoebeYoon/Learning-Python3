@@ -157,3 +157,10 @@ print('SetB == SetC ? ', setB == setC) # 결과는 True
 2. 빈자료형  { } , [ ], ( ), " "  모두 숫자 0 으로 None은 False, 나머지는 True
 
 
+```
+print(type(True))  
+print(type(False))  
+print(false) 
+```
+
+
