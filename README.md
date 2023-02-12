@@ -152,3 +152,8 @@ print('SetB == SetC ? ', setB == setC) # 결과는 True
  
 ```
 
+### 5. Boolean 
+1. 불리언 형은 True, False 로 나타내는 자료형으로 2가지 값만 가집니다
+2. 빈자료형  { } , [ ], ( ), " "  모두 숫자 0 으로 None은 False, 나머지는 True
+
+
