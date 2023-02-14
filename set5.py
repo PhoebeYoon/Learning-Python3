@@ -17,14 +17,14 @@ set3 = set1.union(set2)
 print(set3)
 
 # Write a program to find the intersection between two sets.
-set1 = {23,44,56,67,90,45,"Javatpoint"}  
+set1 = {23,44,56,67,90,45,"Java"}  
 set2 = {13,23,56,76,"Sachin"}  
 set3 = set1.intersection(set2)  
 print(set3)  
 
 #Write the program to add element to the frozenset.
 print(" frozenset ")
-set1 = {23,44,56,67,90,45,"Javatpoint"}  
+set1 = {23,44,56,67,90,45,"Java"}  
 set2 = {13,23,56,76,"Sachin"}  
 set3 = set1.intersection(set2)  
 print(set3) 
