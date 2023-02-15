@@ -63,10 +63,15 @@ days1 = {"Monday",  "Tuesday", "Wednesday", "Thursday"}
 days2 = {"Monday", "Tuesday"}    
 days3 = {"Monday", "Tuesday", "Friday"}   
 #Days1 is the superset of Days2 hence it will print true.     
-print ('days1>days2 ',days1>days2)     
-    
+print ('days1>days2 ',days1>days2)    
+print('days1.issuperset(days2) : ',days1.issuperset(days2))
+
+
 #prints false since Days1 is not the subset of Days2     
 print ('days1<days2 ',days1<days2)    
+print('days1.issubset(days2)   : ',days1.issubset(days2))
+print('days2.issubset(days1)   : ',days2.issubset(days1))   
+    
     
 #prints false since Days2 and Days3 are not equivalent     
 print ('days2 == days3 ',days2 == days3)    
