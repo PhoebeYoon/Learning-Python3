@@ -14,7 +14,7 @@
 
 
 
-```python
+``` python
 # Numeric Types : int / float / complex
 # 1. int(정수형) : 소수점이 없는 정수
 # 2. float(실수형) :  소수점이 있는 형태
