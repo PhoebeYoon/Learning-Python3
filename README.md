@@ -28,7 +28,7 @@ print(result['name']) #딕셔너리 이므로 이렇게해서 해당 값을 얻�
 
 ### Convert from Python to JSON
 python object를 JSON string으로 변환하기 위해서는 json.dumps() 메소드를 사용해야 한다
-```python
+``` python
 demo ={
     "name":"Kim", 
     "age":30, 
