@@ -13,9 +13,9 @@
 
 
 ```python
-import keyword
-print(keyword.kwlist) 
-# 이렇게 하면 키워드가 리스트 형태로 쭈욱 출력됩니다. 이것을 보기 좋게 아래와 같이 코딩하여 출력해 보겠습니다 결과는 이미 위에 있습니다
+import keyword  #keyword 라이브러리를 불러와야 합니다. 
+print(keyword.kwlist)  #kwlist에 해당 내용이 들어있습니다
+# 키워드가 리스트 형태로 그냥 쭈욱 출력됩니다. 보기좋게 나열하기 위해 아래와 같이 코딩합니다. 결과는 이미 위에 있습니다
 
 reverved_word =keyword.kwlist #kwlist
 for i in range(0, len(reverved_word)):
