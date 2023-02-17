@@ -34,7 +34,16 @@ demo ={
     "age":30, 
     "city": "Seoul"
 }
+
+# python의 딕셔너리 형태이다 정말 그런지 확인해 보자
+print(demo['name'])
+#이제 json 으로 변환해 보자
 result =json.dumps(demo)
 print(result)
+print(type(result)). # <class 'str'> 나온다
+
+#print(result['name']) # 변환된 result 에서는 위와 같은 형태로는 값을 얻을 수 없다
+print(result[:7])  # 결과는 {"name"
+
 ```
 결과는 {"name": "Kim", "age": 30, "city": "Seoul"}
