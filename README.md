@@ -14,8 +14,13 @@ import json
 
 demo = '{"name":"Kim", "age":30, "city": "Seoul"}'. 
 # 자세히보면 {} 가 ' ' 로 묶여져 있고 안에 있는 것들은 " "로 묶여있는 JSON string 이다
+print(type(demo)) # <class 'str'> 이라고 나온다
+print(demo["name"])  #딕셔녀리가 아니므로 에러 발생
+
 result = json.loads(demo)
 print(result)
+print(type(result)) # 결과는 <class 'dict'>
+print(result['name']) #딕셔너리 이므로 이렇게해서 해당 값을 얻을 수 있다
 
 ```
 결과는 {'name': 'Kim', 'age': 30, 'city': 'Seoul'}
