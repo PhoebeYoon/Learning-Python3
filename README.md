@@ -32,4 +32,4 @@ demo ={
 result =json.dumps(demo)
 print(result)
 ```
-
+결과는 {"name": "Kim", "age": 30, "city": "Seoul"}
