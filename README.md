@@ -11,7 +11,8 @@ print(add(3))
 print(add(7))
 
 ```
-위의 내용을 클래스에 적용하면,
+
+위의 내용 중 global result를 클래스에 적용하면
 ---
 
 
