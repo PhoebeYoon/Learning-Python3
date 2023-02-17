@@ -19,7 +19,7 @@ print(add(7))
 #렌트카 업체
 class Car():
     def __init__(self):
-        self.license=0  #운전자보험 _범용 
+        self.license=0  #운전자보험의 종합보험 이라고 가정하자
 
     def driving(self, driver):
         print("이 차의 운전자는 "+driver +" 씨는 운전가능," ,end="")
