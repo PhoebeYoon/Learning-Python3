@@ -26,7 +26,6 @@ class FourCal:
 
 a = FourCal()
 b = FourCal()
-#print(a)
 
 a.setdata(4,2)
 b.setdata(3,8)
@@ -39,6 +38,7 @@ print(b.add())
 
 ``` python
 #__init__ 사용 예
+
 class FourCal:
     def __init__(self,first,second):
          self.first = first
@@ -55,8 +55,6 @@ class FourCal:
     
     def div(self):
         return self.first / self.second
-    
-    
 
 a = FourCal(4,2)
 b = FourCal(3,8)
