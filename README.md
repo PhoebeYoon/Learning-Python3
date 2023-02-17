@@ -3,7 +3,7 @@
 ```
 import json
 ```
-json는 자바스크립트의 표기를 따른다 
+json는 자바스크립트의 표기법를 따른다 
 json는 언뜻보기에 객체와 비슷해 보인다 
 
 ### Convert from JSON to Python
@@ -40,10 +40,10 @@ print(demo['name'])
 #이제 json 으로 변환해 보자
 result =json.dumps(demo)
 print(result)
-print(type(result)). # <class 'str'> 나온다
+print(type(result)) # <class 'str'> 나온다
 
 #print(result['name']) # 변환된 result 에서는 위와 같은 형태로는 값을 얻을 수 없다
-print(result[:7])  # 결과는 {"name"
+print(result[:7])  # 결과는 {"name" 문자열이므로 문자열에 사용되는 기능을 사용할 수 있다
 
 ```
 결과는 {"name": "Kim", "age": 30, "city": "Seoul"}
