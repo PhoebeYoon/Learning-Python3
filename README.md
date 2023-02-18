@@ -64,17 +64,4 @@ print(sub(30,4))
 위에서 import 만 했는데 print이 실행이 되었다
 ```
 
-```python
-# module3.py
-#클래스나 변수 등을 포함한 모듈
-PI = 3.141592
-
-class Math: 
-    def solv(self, r): 
-        return PI * (r ** 2) 
-
-def add(a, b): 
-    return a+b 
-
-```
 
