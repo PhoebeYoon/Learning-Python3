@@ -38,10 +38,9 @@ print(a)
 import person as pe
 a = pe.person1["age"]
 print(a)
-
 ```
 
-
+### 이제 다른 예제로
 
 ``` python
 # module1.py
