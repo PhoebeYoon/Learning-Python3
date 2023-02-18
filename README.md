@@ -51,9 +51,23 @@ game 이라는 이름의 패키지를 만들자 ( 다른 분들이 game 이라�
 
 
 ``` python
-
+# enemy.py 
+def get_enemy_info():
+    print("나는 적군이다")
 ```
 
+``` python
+# player.py
+def player_info():
+    print("나는 아군이다"
+```
+
+ㅡㅡinitㅡㅡ.py 는 내용을 삽입하지 않고 파일만 만든다
+
+
+``` python
+
+```
 
 ``` python
 
