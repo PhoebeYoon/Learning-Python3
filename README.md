@@ -15,6 +15,33 @@ def calling(name):
 import mymodule
 mymodule.calling("Smith")
 ```
+### 모듈은 array, dictionary, object를 포함할 수 있다
+
+```python
+#person.py 로 저장
+person1 = {
+  "name": "Smith",
+  "age": 30,
+  "country": "Korea"
+}
+
+```
+```python
+import person
+a = mymodule.person1["age"]
+print(a)
+````
+
+### 모듈에 별칭을 붙여 간단하게 사용하고자 한다면 'as' 키워드를 사용한다
+
+```python
+import person as pe
+a = pe.person1["age"]
+print(a)
+
+```
+
+
 
 ``` python
 # module1.py
