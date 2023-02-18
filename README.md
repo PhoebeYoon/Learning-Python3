@@ -1,4 +1,4 @@
-## 모듈 ( Moudle )
+## 모듈 ( Module )
 ``` python
 # module1.py
 # 클래스나 변수 등을 포함한 모듈
