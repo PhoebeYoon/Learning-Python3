@@ -42,7 +42,26 @@ print(sub(30,4))
 26
 
 위에서 import 만 했는데 print이 실행이 되었다
+```
 
+``` python
+# module2.py를 아래와 같이 실행할 수도 있다
+#def add(a, b):
+#    return a + b
+
+#def sub(a, b): 
+#    return a-b
+from module1 import *
+
+print(add(10,20))
+print(sub(30,4))
+
+>>python
+>>import module2
+30
+26
+
+위에서 import 만 했는데 print이 실행이 되었다
 ```
 
 ```python
