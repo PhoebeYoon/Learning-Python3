@@ -2,7 +2,7 @@
 ``` python
 # module1.py
 # 클래스나 변수 등을 포함한 모듈
-# module1.py
+
 def add(a, b):
     return a + b
 
@@ -12,14 +12,13 @@ def sub(a, b):
 터미널에서 실행한다
 >>>python
 >>>import module1
->>> print(module1.add(10,20))
+>>>print(module1.add(10,20))
 
->>> from module1 import sub
->>> sub(20,10)
+>>>from module1 import sub
+>>>sub(20,10)
 
-
->>> from module1 import *
->>> add (20,30)
+>>>from module1 import *
+>>>add (20,30)
 50
 >>> sub(30,4)
 26
@@ -38,7 +37,7 @@ print(sub(30,4))
 
 
 >>python
->> import module2
+>>import module2
 30
 26
 
