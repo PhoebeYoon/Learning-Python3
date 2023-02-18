@@ -1,6 +1,6 @@
 ## 모듈 ( Modules )
 모듈이란 코드 라이브러리와 같다. 
-응용프로그램에 포함할 기능들이 모아놓은 파일이라고 할 수 있다.
+응용프로그램에 포함할 기능들을 모아놓은 파일이라고 할 수 있다.
 모듈을 만들려면 파일 확장자가 .py인 파일에 원하는 코드를 넣으면 된다
 
 
@@ -27,9 +27,10 @@ person1 = {
 
 ```
 ```python
+# module.py로 저장
 import person
-a = mymodule.person1["age"]
-print(a)
+a = person.person1["age"]
+print(a) # 30 출력
 ````
 
 ### 모듈에 별칭을 붙여 간단하게 사용하고자 한다면 'as' 키워드를 사용한다
@@ -37,7 +38,7 @@ print(a)
 ```python
 import person as pe
 a = pe.person1["age"]
-print(a)
+print(a)  # 30 출력
 ```
 
 ### 이제 다른 예제로
