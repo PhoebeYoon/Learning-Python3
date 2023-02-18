@@ -74,6 +74,14 @@ player.get_player_info()
 get_enemy_info()
 
 ```
+실행은 다름과 같이 진행한다
+우선, 터미널창에서 /package 폴더로 이동한 후 game 폴더와 main.py 가 있는 것을 확인한 후에   
+>python3 main.py 엔터
+우선, 터미널창에서 /package 폴더로 이동한 후 game 폴더와 main.py 가 있는 것을 확인한 후에   python3 main.py
+
+결과에, 나는 아군이다 나는 적군이다 가 출력된다.  
+이렇게 실행하고 나면 아까 위에서 생성하지 않는 __ pycache__ 라는 파일이 생성된 것을 볼 수 있다 이것은 파이썬이 사용하는 파일로 클릭해도 우리는 내용을 볼 수 없는 이진파일이다
+
 
 ``` python
 
