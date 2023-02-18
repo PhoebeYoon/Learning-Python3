@@ -8,7 +8,8 @@
 
 ### 패키지에서 모듈 불러오기 (Importing module from a package)
 
-<img width="481" alt="스크린샷 2023-02-18 오후 4 19 07" src="https://user-images.githubusercontent.com/48478079/219847267-f84374a8-670e-4bf0-a69a-9df61991c3a5.png">    
+   <img width="481" alt="스크린샷 2023-02-18 오후 4 19 07" src="https://user-images.githubusercontent.com/48478079/219850054-33783a32-262f-4e6b-a3c2-f915d48cb64a.png">
+
 
 ###### (사진출처 : https://www.programiz.com/python-programming/package)
 
