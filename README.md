@@ -106,11 +106,19 @@ def baz():
 class Baz:
     pass
 
-from .. import sub_pkg1
-print(sub_pkg1)
+from .. import sub1
+print(sub1)
 
-from ..sub_pkg1.mod1 import foo
+from ..sub1.mod1 import foo
 foo()
 
-```. 
+```
+<pre>
+>>> python
+>>>from pkg.sub2 import mod3
+>>> mod3.baz()
+>>> mod3.foo()
+</pre>
+>>  점 .. 은 상위 패키지로 간주된다 그래서 ..sub1은 부모 패키지의 서브패키지인 sub1로 간주되는 것이다 
+
 
