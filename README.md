@@ -96,3 +96,21 @@ foo()
 >>> mod3.foo()
 [mod1] foo()
 ```
+
+에러가 발생하는 대신  mod1.py 파일안의  foo()가 실행된다. mod3.py의 내용을 아래와 같이 변경한 후 다시 실해해보자
+
+```python
+def baz():
+    print('[mod3] baz()')
+
+class Baz:
+    pass
+
+from .. import sub_pkg1
+print(sub_pkg1)
+
+from ..sub_pkg1.mod1 import foo
+foo()
+
+```. 
+
