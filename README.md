@@ -79,6 +79,7 @@ __all__ = [
 ['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'mod1', 'mod2', 'mod3', 'mod4']
 >>> mod1.foo()
 [mod1] foo()
->>> 
-
 </pre>
+
+여기서 <b>from 패키지 import * </b>는 모든것을 불러오겠다는 것인데, 모든 것이 뭔지를 모르는 것이다.  그래서 __all__=[] 로 모든것이 뭔지를 지정해 주는 것이다.  
+
