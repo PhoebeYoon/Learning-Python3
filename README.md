@@ -115,10 +115,10 @@ foo()
 ```
 <pre>
 >>> python
->>>from pkg.sub2 import mod3
+>>> from pkg.sub2 import mod3
 >>> mod3.baz()
 >>> mod3.foo()
 </pre>
->>  점 .. 은 상위 패키지로 간주된다 그래서 ..sub1은 부모 패키지의 서브패키지인 sub1로 간주되는 것이다 
+> 점 .. 은 상위 패키지로 간주된다 그래서 ..sub1은 부모 패키지의 서브패키지인 sub1로 간주되는 것이다 
 
 
