@@ -129,7 +129,7 @@ dowhat = dowhat.strip() # 공백이 있을 수 있으니 제거한다
 # 공백제거를 위해 dowhat = dowhat.replace(" ","") replace 문을 사용할 수도 있다
 if dowhat =="+": print(calc.plus(num1, num2))
 if dowhat =="-": print(calc.minus(num1, num2))
-if dowhat =="+": print(calc.multiply(num1, num2))
-if dowhat =="+": print(calc.divide(num1, num2))
+if dowhat =="*": print(calc.multiply(num1, num2))
+if dowhat =="/": print(calc.divide(num1, num2))
 # 파이썬에는 switch ~ case 문이 없기 때문에 if 문으로 
 ```
