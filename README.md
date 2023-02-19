@@ -78,5 +78,21 @@ python 엔터  > dir() # 1번 결과확인  > from pkg import *  >  dir() # 2번
 <img width="530" alt="스크린샷 2023-02-19 오후 1 00 51" src="https://user-images.githubusercontent.com/48478079/219921434-b9e5dc93-bcbc-4da1-8c52-1b69302344f1.png">   
 sub2 패키지를 불러오고 나서 sub1 패키지에 있는 foo() 를 부른것이다. 당연히 에러가 발생한다   
 
+이제 mod3.py 의 내용을 바꾼다
+```python
+def baz():
+    print('[mod3] baz()')
 
+class Baz:
+    pass
 
+from pkg.sub1.mod1 import foo
+foo()
+```   
+변경후에, 
+```
+>>> from pkg.sub2  import mod3
+[mod1] foo()
+>>> mod3.foo()
+[mod1] foo()
+```
