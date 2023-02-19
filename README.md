@@ -108,9 +108,10 @@ print(calc.multiply(1, 2))
 print(calc.divide(1, 2))
 
 ```
+또 다르게 만들어보면,
 
-
-```pythoclass Calculator:
+``` python
+class Calculator:
     def plus(self, x, y):
         return x+y
     def minus(self, x, y):
@@ -123,7 +124,7 @@ print(calc.divide(1, 2))
 calc = Calculator()
 num1  = int(input("첫번째 입력>>"))
 num2  = int(input("두번째 입력>>"))
-dowhat = (input(" + - *  / 중 1개만 선택하세요"))
+dowhat = input(" + - *  / 중 1개만 선택하세요")
 dowhat = dowhat.strip() # 공백이 있을 수 있으니 제거한다
 # 공백제거를 위해 dowhat = dowhat.replace(" ","") replace 문을 사용할 수도 있다
 if dowhat =="+": print(calc.plus(num1, num2))
@@ -131,8 +132,4 @@ if dowhat =="-": print(calc.minus(num1, num2))
 if dowhat =="+": print(calc.multiply(num1, num2))
 if dowhat =="+": print(calc.divide(num1, num2))
 # 파이썬에는 switch ~ case 문이 없기 때문에 if 문으로 
-
-
-
-
 ```
