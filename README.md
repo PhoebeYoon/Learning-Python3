@@ -5,12 +5,9 @@
 ### 실습을 해보자
 <pre>
 \pkg
-    \sub_a
         __init__.py
         mod1.py
         mod2.py
-    \sub_b 
-        __init__.py
         mod3.py
         mod4.py
 </pre>
@@ -56,15 +53,32 @@ class Qux:
 
 이제 터미널에서 다음을 실행해보자
 ```
+>>> python
 >>> from pkg import *
->>> dir() 
-#결과를 확인해 본다
+>>> mod1.foo()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'mod1' is not defined
 ```
-
-
-
-### 모듈을 만들어보자
-
+라고 출력된다
+이제  ㅡㅡinitㅡㅡ.py 의 내용에 아래의 내용을 추가해 본다
 ```python
+__all__ = [
+        'mod1',
+        'mod2',
+        'mod3',
+        'mod4'
+        ]
 
 ```
+
+<pre>
+>>> python
+>>> from pkg import *
+>>> dir()
+['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'mod1', 'mod2', 'mod3', 'mod4']
+>>> mod1.foo()
+[mod1] foo()
+>>> 
+
+</pre>
