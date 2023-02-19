@@ -52,6 +52,14 @@ class Qux:
     pass
 
 ```
+ㅡㅡinitㅡㅡ.py 는 빈파일로 한다   
+
+이제 터미널에서 다음을 실행해보자
+```
+>>> from pkg import *
+>>> dir() 
+#결과를 확인해 본다
+```
 
 
 
