@@ -91,7 +91,12 @@ __all__ = [
 ```python
 #__init__.py 에 내용을 변경
 print(f'초기화파일불러오기{__name__}')
-A =['mod1','mod2','mod3','mod4']
 ```
+터미널에서 다음을 실행해 본다  
+<pre>
+>>> from pkg import *
+초기화파일불러오기pkg #출력결과를 확인한다
 
+
+</pre>
 
