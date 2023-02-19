@@ -45,7 +45,7 @@ __all__ = [
         'mod3',
         'mod4'
         ]
-# 여기에 사용된 __all__ 에 대해서는 'module_all_
+# 여기에 사용된 __all__ 에 대해서는 'module_all_import 브랜치를 참조해주세요
 ```
 
 터미널로 이동하여  
