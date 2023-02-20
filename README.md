@@ -58,7 +58,7 @@ def get_enemy_info():
 
 ``` python
 # player.py
-def player_info():
+def get_player_info():
     print("나는 아군이다"
 ```
 
