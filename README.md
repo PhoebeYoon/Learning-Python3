@@ -13,8 +13,22 @@ print(add(7))
 ```
 
 위의 내용 중 global result를 클래스에 적용하면
----
+```python
+#위의 내용을 class 사용해서 만들어보세요
+class Calculator:
+    def __init__(self):
+        self.result = 0
+    
+    def add(self, num):
+        self.result += num
+        return self.result
 
+calc = Calculator()
+print(calc.add(3))
+print(calc.add(7))
+```
+
+### 다시 설명하면 
 
 ``` python
 #렌트카 업체
