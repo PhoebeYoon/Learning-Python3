@@ -81,7 +81,8 @@ man1.remove_emp(em2)
 man1.print_emps() 
 
 print(" * is sub class ? ") 
-# issubclass(자식클래서, 부모클래스) 클래스 상식관계를 알아보는 것으로 기본적으로 빌트인 모듈이라 따로 import 할 필요없다
+# issubclass(자식클래서, 부모클래스) 클래스 상식관계를 알아보는 것으로 기본적으로 빌트인 모듈이라
+# 따로 import 할 필요없다
 print(issubclass(Manager, Developer))
 print(issubclass(Manager, Employee))
 ```
