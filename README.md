@@ -4,8 +4,10 @@
 2. enumerate()설명  
 3. 파일모드에 대한 설명
 
-1.
+
+
 ``` python
+# 1.
 import sys
 
 class Person:
