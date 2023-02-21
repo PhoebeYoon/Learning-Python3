@@ -1,6 +1,7 @@
 
 ### 주소록을 만들어보겠습니다.
 ##### 추가 설명을 넣었습니다.
+##### 파일모드에 대한 설명은 아래쪽에 있습니다
 
 ``` python
 import sys
@@ -178,6 +179,20 @@ def search(self):
 myapp = AddressBook() 
 myapp.run() 
 
-
 ```
+
+#### Character   Meaning
+```
+'r'     open for reading (default)
+'w'     open for writing, truncating the file first
+'x'     open for exclusive creation, failing if the file already exists
+'a'     open for writing, appending to the end of the file if it exists
+'b'     binary mode
+'t'     text mode (default)
+'+'     open a disk file for updating (reading and writing)
+'U'     universal newlines mode (deprecated)
+
+기본 읽기모드는 'r' 인데, 위에서 사용된 'rt'와 동일합니다
+```
+
 
