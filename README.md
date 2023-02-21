@@ -227,4 +227,12 @@ for  i, letter in enumerate(['a','b','c']):
 기본 읽기모드는 'r' 인데, 위에서 사용된 'rt'와 동일합니다
 ```
 
-
+``` python
+name =""
+print( not name)
+# name이 공백으로 들어올때 if 문에서 어떻게 처리되는지 살펴보세요
+if not name :
+    print(' + ')
+else:
+    print("-")
+```
