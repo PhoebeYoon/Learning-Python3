@@ -122,7 +122,7 @@ class AddressBook:
         for i, person in enumerate(self.address_list):
             if name == self.address_list[i].name:
                 print('검색된 전화번호가 "{}"입니다.'.format(self.address_list[i].phone))
-                if input('수정할까요?(Y/N) >>> ').upper() != 'Y':
+                if input('수정할까요?(y/n) >>> ').upper() != 'Y':
                     continue  # for문으로 되돌아가서 다음 사람을 검색
                 new_phone = input('변경할 전화번호 입력 >>> ')
                 if new_phone:  # 입력이 있으면
@@ -180,6 +180,9 @@ myapp = AddressBook()
 myapp.run() 
 
 ```
+
+> 만약 파일읽기에서 _UnicodeDecode\Error 'utf-8' codec can't decode byte 0xb9 in position 0_ 발생하면   
+> file = open('/경로/addressBook.csv', 'r',<b>encoding='cp949'</b>) 로 넣어준다 encoding 에러이다
 
 #### Character   Meaning
 ```
