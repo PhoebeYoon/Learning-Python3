@@ -1,8 +1,10 @@
 
-### 주소록을 만들어보겠습니다.
-##### 추가 설명을 넣었습니다.
-##### 파일모드에 대한 설명은 아래쪽에 있습니다
+## 주소록을 만들어보겠습니다.
+1. 주소록 코드  
+2. enumerate()설명  
+3. 파일모드에 대한 설명
 
+1.
 ``` python
 import sys
 
@@ -185,24 +187,31 @@ myapp.run()
 > file = open('/경로/addressBook.csv', 'r',<b>encoding='cp949'</b>) 로 넣어준다 encoding 에러이다
 
 
-#### enumerate() 사용법
+#### 2. enumerate() 사용법
 ``` python
 for letter  in ['a','b','c']:
-    print(letter )
-    
+    print(letter )  # 결과는 a b c
+  
 # 만약 인덱스번호를 얻고 싶다면
 for letter  in enumerate(['a','b','c']):
-    print(letter) 
+    print(letter)    
+# 결과는 
+#(0, 'a')
+#(1, 'b')
+#(2, 'c')
     
 #인덱스 번호가 보인다. 이제 내용과 인덱스번호를 따로 가져오고 싶다면
 for  i, letter in enumerate(['a','b','c']):
     print('인덱스{}  내용 {}'.format(i , letter) )
-
+#결과는 
+#인덱스0  내용 a
+#인덱스1  내용 b
+#인덱스2  내용 c
 ```
 
 
 
-#### Character   Meaning
+#### 3. Character   Meaning
 ```
 'r'     open for reading (default)
 'w'     open for writing, truncating the file first
