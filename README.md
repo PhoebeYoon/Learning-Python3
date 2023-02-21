@@ -36,7 +36,7 @@ class AddressBook:
                     break
                 name = buffer.split(',')[0]
                 phone = buffer.split(',')[1]
-                addr = buffer.split(',')[2].rstrip('\n') #줄바꿈기호를 
+                addr = buffer.split(',')[2].rstrip('\n') #줄바꿈기호를 제거합니다
                 self.address_list.append(Person(name, phone, addr))
             print('addressBook.csv 파일을 로드했습니다.')
             file.close()
