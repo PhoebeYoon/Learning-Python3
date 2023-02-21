@@ -36,7 +36,7 @@ class AddressBook:
                     break
                 name = buffer.split(',')[0]
                 phone = buffer.split(',')[1]
-                addr = buffer.split(',')[2].rstrip('\n')
+                addr = buffer.split(',')[2].rstrip('\n') #줄바꿈기호를 
                 self.address_list.append(Person(name, phone, addr))
             print('addressBook.csv 파일을 로드했습니다.')
             file.close()
@@ -80,15 +80,15 @@ class AddressBook:
     
     def insert(self):
         print('=== 신규 주소록 생성 ===')
-        name = input('등록할 이름 입력 >>> ')
-        phone = input('등록할 전화번호 입력 >>> ')
-        addr = input('등록할 주소 입력 >>> ')
-        if name and phone and addr:  # 모두 입력되었다면
+        name = input('새 이름 입력 >>> ')
+        phone = input('새 전화번호 입력 >>> ')
+        addr = input('새 주소 입력 >>> ')
+        if name and phone and addr:  # and으로 연결하여 3개의 값이 모두 입력되면
 
             self.address_list.append(Person(name, phone, addr))  # 삽입
-            self.file_generator()
-            print('신규 주소록이 정상적 으로 생성되었습니다.')
-        else:  # 누락된 입력이 하나라도 있으면 삽입 실패
+            self.file_generator() #새로운 내용을 파일로 저장하는 처리를 합니다
+            print('새 주소가 정상적으로 등록되었습니다.')
+        else:  # 내용이 누락되면 저장되지 않도록 합니다
             print('입력값이 부족하여 주소록이 생성되지 않았습니다.')
 
     def delete(self):
@@ -101,8 +101,8 @@ class AddressBook:
         for i, person in enumerate(self.address_list):
             if name == self.address_list[i].name:
                 print('검색된 전화번호가 "{}"입니다.'.format(self.address_list[i].phone))
-                if input('삭제할까요?(Y/N) >>> ').upper() != 'Y':
-                    continue  # for문으로 되돌아가서 다음 사람을 검색
+                if input('정말로 삭제하시겠습니까 ?(y/n) >>> ').upper() != 'Y':  # 대소문자를 통일하기 위해 upper() 사용
+                    continue  # 'Y'와 같지않으면 '참'이 되는 구조로 'N'가 입력되면 for문으로 되돌아가서 다음 사람을 검색
                 self.address_list.pop(i)  # 삭제
                 deleted = True
                 print('{}의 정보를 삭제했습니다.'.format(name))
