@@ -184,6 +184,24 @@ myapp.run()
 > 만약 파일읽기에서 _UnicodeDecode\Error 'utf-8' codec can't decode byte 0xb9 in position 0_ 발생하면   
 > file = open('/경로/addressBook.csv', 'r',<b>encoding='cp949'</b>) 로 넣어준다 encoding 에러이다
 
+
+#### enumerate() 사용법
+``` python
+for letter  in ['a','b','c']:
+    print(letter )
+    
+# 만약 인덱스번호를 얻고 싶다면
+for letter  in enumerate(['a','b','c']):
+    print(letter) 
+    
+#인덱스 번호가 보인다. 이제 내용과 인덱스번호를 따로 가져오고 싶다면
+for  i, letter in enumerate(['a','b','c']):
+    print('인덱스{}  내용 {}'.format(i , letter) )
+
+```
+
+
+
 #### Character   Meaning
 ```
 'r'     open for reading (default)
