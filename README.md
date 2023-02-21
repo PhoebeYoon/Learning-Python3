@@ -229,10 +229,10 @@ for  i, letter in enumerate(['a','b','c']):
 
 ``` python
 name =""
-print( not name)
+print( not name)  # 결과는 True 
 # name이 공백으로 들어올때 if 문에서 어떻게 처리되는지 살펴보세요
 if not name :
-    print(' + ')
+    print(' + ') # 결과는  + 
 else:
     print("-")
 ```
