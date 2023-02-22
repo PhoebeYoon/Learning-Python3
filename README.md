@@ -134,3 +134,15 @@ if dowhat =="*": print(calc.multiply(num1, num2))
 if dowhat =="/": print(calc.divide(num1, num2))
 # 파이썬에는 switch ~ case 문이 없기 때문에 if 문으로 
 ```
+
+### 조건이 True가 되게 하기 위해 not 사용한 예
+``` python 
+name =""
+print( not name) # True
+
+if not  name :
+    print(' + ')  # + 출력
+else:
+    print("-")
+
+```
